@@ -1,0 +1,7 @@
+import math
+x1 = float(input("Введите х первой координаты "))
+y1 = float(input("Введите у первой координаты "))
+x2 = float(input("Введите х второй координаты "))
+y2 = float(input("Введите у второй координаты "))
+distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
+print(distance)
