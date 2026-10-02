@@ -1,0 +1,4 @@
+m = int(input("Введите количество минут "))
+hours = m // 60
+minutes = m % 60
+print(f"{m} минут - это {hours} часа и {minutes} минут")
